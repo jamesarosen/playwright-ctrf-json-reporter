@@ -1,0 +1,21 @@
+src/generate-report.test.ts
+  s_843d48b312d9da::t_9c35d081f0ec0b 9-21
+src/generate-report.ts
+  s_843d48b312d9da::t_0345333c3f9fd7 533,535,538,540
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "bb77eacd9e9b28c35794a1b9416e97d1e70e8eed",
+  "prompts": {},
+  "sessions": {
+    "s_843d48b312d9da": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "c8723eb7-7940-4655-b634-a1913aeb24c1",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "James A Rosen <james.rosen@scribehow.com>"
+    }
+  }
+}
