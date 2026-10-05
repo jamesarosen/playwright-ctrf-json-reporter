@@ -1,0 +1,22 @@
+tests/failed-tests.spec.ts
+  s_6af4a16169a55d::t_5986eac4c5e2af 51-58
+src/generate-report.ts
+  s_6af4a16169a55d::t_e4ee7e92a14eb8 347-348
+  s_6af4a16169a55d::t_eb53956533c1bb 228,233,235,251,255,329-330,335-336,342-346
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "7f2bf6fd8a7c1e665b3d6baa8efe869f5b90030e",
+  "prompts": {},
+  "sessions": {
+    "s_6af4a16169a55d": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "00c50180-c651-43aa-a95d-a3781c5072b1",
+        "model": "gpt-5.6-terra"
+      },
+      "human_author": "James A Rosen <james.rosen@scribehow.com>"
+    }
+  }
+}
