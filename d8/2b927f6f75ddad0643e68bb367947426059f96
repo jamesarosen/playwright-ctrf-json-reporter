@@ -1,0 +1,50 @@
+src/strip-ansi.test.ts
+  s_dfda95958959ed::t_fc4013e1f50526 35-37,42-44
+  s_dfda95958959ed::t_043845426e42d5 1-8,30-34,38-41,45-59
+  s_dfda95958959ed::t_dda1aa9fd47ab0 9-29
+tests/dummy-suites/failed-test-suite.ts
+  s_dfda95958959ed::t_e034573432f8c7 12-13,17-18
+src/generate-report.test.ts
+  s_dfda95958959ed::t_e8aa53779d4284 450-471
+src/generate-report.ts
+  s_dfda95958959ed::t_4bfad3abea4d81 572,575,578
+  s_dfda95958959ed::t_c5a468a675e2b0 187,190,196,198-200
+  s_dfda95958959ed::t_e83532d4d41aef 28
+tests/dummy-suites/flaky-test-suite.ts
+  s_dfda95958959ed::t_0f6855cc074913 13-14,18-19
+tests/dummy-suites/ansi-error.ts
+  s_dfda95958959ed::t_1b1120713b0c3b 16
+  s_dfda95958959ed::t_a1d6ec03cf0269 22
+  s_dfda95958959ed::t_9f524c7de9a460 1-15,17-21,23
+tests/flaky-tests.spec.ts
+  s_dfda95958959ed::t_eafc51697b4452 70-77,80-86
+  s_dfda95958959ed::t_f7fc699488fe48 2
+  s_dfda95958959ed::t_fc4013e1f50526 78-79
+src/strip-ansi.ts
+  s_dfda95958959ed::t_59578ddb3a91f4 1,5-7,9-11,13
+  s_dfda95958959ed::t_d32c093e2d84fa 2-4
+  s_dfda95958959ed::t_5cef59c87240a7 12,14
+  s_dfda95958959ed::t_bb31c54edba81b 8
+tests/failed-tests.spec.ts
+  s_dfda95958959ed::t_7beecef95057c9 61-68,71-72,74-75,77-79
+  s_dfda95958959ed::t_fc4013e1f50526 69-70
+  s_dfda95958959ed::t_1063b549c7cc53 76
+  s_dfda95958959ed::t_a139bf620d1646 73
+  s_dfda95958959ed::t_5008789265f22b 2
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "d82b927f6f75ddad0643e68bb367947426059f96",
+  "prompts": {},
+  "sessions": {
+    "s_dfda95958959ed": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "18f15c8c-feed-45a8-9158-13c9ed6ace5c",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "James A Rosen <james.rosen@scribehow.com>"
+    }
+  }
+}
