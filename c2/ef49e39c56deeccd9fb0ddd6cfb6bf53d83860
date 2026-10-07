@@ -1,0 +1,42 @@
+tests/failed-tests.spec.ts
+  s_0f0597d22997ec::t_34db98c25d6b6e 31,74
+  s_0f0597d22997ec::t_67d57ba1d0ce2b 42,44-47
+  s_0f0597d22997ec::t_c77a7e59574da5 7-9
+src/generate-report.ts
+  s_0f0597d22997ec::t_b53ebf67951b6b 92-94
+  s_0f0597d22997ec::t_4b636b0dea3307 72
+  s_0f0597d22997ec::t_bddad937734cf8 166-170
+  s_0f0597d22997ec::t_9f104a7942d35c 118,122
+  s_0f0597d22997ec::t_195f677e5a9dc0 265-267,269
+  s_0f0597d22997ec::t_25bf05d59297c9 37
+src/generate-report.test.ts
+  s_0f0597d22997ec::t_5c689b727d8b99 35-36
+  s_0f0597d22997ec::t_16275aad0bda38 7
+  s_0f0597d22997ec::t_c4a5d0cd25800f 53
+  s_0f0597d22997ec::t_bc4e09bef02c5d 167,174-210
+  s_0f0597d22997ec::t_43d8d58cc63b3b 211-212,227-284
+  s_0f0597d22997ec::t_d670dddb6ab5c0 213
+tests/flaky-tests.spec.ts
+  s_0f0597d22997ec::t_2f92caa757a778 7-9
+  s_0f0597d22997ec::t_5904cb9a9cae55 31,78
+README.md
+  s_0f0597d22997ec::t_eae3a282c7d072 57
+  s_0f0597d22997ec::t_13f23487b8aab1 41-42,52-53
+  s_0f0597d22997ec::t_bda5d4c95bfcf0 108
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "c2ef49e39c56deeccd9fb0ddd6cfb6bf53d83860",
+  "prompts": {},
+  "sessions": {
+    "s_0f0597d22997ec": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "51103a89-9942-4065-a4d8-4fefe615e711",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "James A Rosen <james.rosen@scribehow.com>"
+    }
+  }
+}
