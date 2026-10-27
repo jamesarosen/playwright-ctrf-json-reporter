@@ -1,0 +1,41 @@
+tests/standard/conformance/integration/fixtures/native-reporter.cjs
+  s_712392f23fa550::t_a95b150b4c4f3c 18
+tests/standard/conformance/unit/fixtures.ts
+  s_712392f23fa550::t_d8efccb027ed97 105-106
+  s_712392f23fa550::t_493e2f0d2e9634 19
+src/generate-report.test.ts
+  s_712392f23fa550::t_af023eb32e2ac1 319-338,366-441,445-467
+  s_712392f23fa550::t_cdfe38df262cd5 39-57,59-66,68-70
+  s_19cfe709d2c48f::t_a14f8b87d6b9c0 339-365
+  s_712392f23fa550::t_f3dc55c923b78f 58,67
+  s_712392f23fa550::t_add8304d4b060e 442-444
+src/generate-report.ts
+  s_712392f23fa550::t_f1071f12a5e016 411-412
+tests/standard/conformance/expected.mjs
+  s_712392f23fa550::t_64b520cf50e2b5 12-20,44
+  s_19cfe709d2c48f::t_f4671e9d838fca 35-39
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "da83b026d1a0cf357adf376b46711b7107733c84",
+  "prompts": {},
+  "sessions": {
+    "s_19cfe709d2c48f": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "68370b8b-bea5-40a1-ae82-8f5bb4c60f8a",
+        "model": "glm-5p3"
+      },
+      "human_author": "James A Rosen <james.rosen@scribehow.com>"
+    },
+    "s_712392f23fa550": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "88d2b9e9-e689-4be6-8cbd-4f59e44800a9",
+        "model": "glm-5p3-high"
+      },
+      "human_author": "James A Rosen <james.rosen@scribehow.com>"
+    }
+  }
+}
