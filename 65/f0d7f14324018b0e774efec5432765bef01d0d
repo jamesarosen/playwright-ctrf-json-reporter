@@ -1,0 +1,61 @@
+tests/standard/conformance/expected.mjs
+  s_b15ec25e4c9795::t_a575e7d0a999b0 40-54
+tests/standard/conformance/integration/fixtures/cases.spec.js
+  s_b15ec25e4c9795::t_d10828a08580fa 41-46,49-55,58-60,62-63
+  s_b15ec25e4c9795::t_4c949f0ad2696a 48
+  s_b15ec25e4c9795::t_ae38605762d177 56-57,61
+  s_b15ec25e4c9795::t_18c2470d605ddd 47
+src/generate-report.test.ts
+  s_b15ec25e4c9795::t_24a1fa6435a75c 8
+  s_b15ec25e4c9795::t_12074d347ef6e6 65-95,98-112
+  s_b15ec25e4c9795::t_fd7158a9a6e64e 639-640,649-679,682-803
+  s_b8db99e7e5ff93::t_fa199f37627fd3 641-648
+  s_b8db99e7e5ff93::t_e67bce422e1e93 96-97,680-681
+README.md
+  s_b15ec25e4c9795::t_fec269224d6355 306-311,313-316,319-327,329
+  s_b8db99e7e5ff93::t_d67bfe552647b4 312,317-318,328
+src/generate-report.ts
+  s_3a73ab04c4cd95::t_0681a6e9590f4d 12
+  s_3a73ab04c4cd95::t_569f04922cb96c 171,174-180,199-207,211-213,219-244
+  s_b8db99e7e5ff93::t_7691290d676f96 214-218
+  s_3a73ab04c4cd95::t_06b7906eb583cc 245-246
+tests/standard/conformance/integration/run.mjs
+  s_b8db99e7e5ff93::t_d6bf1a5f106cdd 265-267,269-276
+  s_b8db99e7e5ff93::t_e67bce422e1e93 268
+  s_b15ec25e4c9795::t_ada405566e5ab0 93-97
+  s_b8db99e7e5ff93::t_b9b601a416aa89 92
+tests/standard/conformance/integration/fixtures/native-reporter.cjs
+  s_b15ec25e4c9795::t_03f5f3dfaeb721 11,38-42
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "65f0d7f14324018b0e774efec5432765bef01d0d",
+  "prompts": {},
+  "sessions": {
+    "s_3a73ab04c4cd95": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "c9a845f0-b478-4649-a1e3-93f72d16d635",
+        "model": "kimi-k3-max"
+      },
+      "human_author": "James A Rosen <james.rosen@scribehow.com>"
+    },
+    "s_b15ec25e4c9795": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "77d23401-b9d3-4cec-9cec-8234f7677018",
+        "model": "glm-5p3-high"
+      },
+      "human_author": "James A Rosen <james.rosen@scribehow.com>"
+    },
+    "s_b8db99e7e5ff93": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "19073495-1d55-45cd-a4eb-e9785c48323e",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "James A Rosen <james.rosen@scribehow.com>"
+    }
+  }
+}
